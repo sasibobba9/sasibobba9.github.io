@@ -1,4 +1,4 @@
 # sasibobba.github.io
-Student at University of Staffordshire,
-Pursuing AI and Robotics Final year,
-Welcome to my own site
+I am Sasikanth Bobba, pursuing AI and Robotics at University of Staffordshire.
+This page shows my work on mantaray project. 
+
