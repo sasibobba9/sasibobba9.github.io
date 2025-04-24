@@ -236,33 +236,61 @@ This development process not only created a visually accurate model but also sho
 								</div>
   <h2>Design Resources and Technologies Used</h2>
   <p>
-    The design and fabrication of the manta ray-inspired robotic model utilized a wide range of advanced digital and physical tools, workshop facilities, and prototyping technologies. Each stage of the design process was supported by specialized equipment and software to ensure precision, creativity, and functionality in the final output. Below is an overview of the key resources involved:
-  </p>
+The development of the manta ray-inspired robotic model was a multidisciplinary process, integrating advanced design tools, workshop technologies, and digital fabrication techniques. 
+The objective was to create a lifelike prototype that reflected both the aesthetics and functional motion of a real manta ray. 
+To achieve this, our team leveraged a wide range of resources provided through university facilities, combining scanning, modelling, simulation, printing, and post-processing techniques.
+Each phase of the design and build process relied on specialised tools and methods to ensure high precision and realism. 
+Below is a comprehensive overview of the key technologies and resources that contributed to the success of this project.  </p>
   <ol>
-    <li>
+   
+	  <li>
       <strong>3D Scanning Hardware, Software, and Workshop Facilities:</strong><br>
-      High-resolution 3D scanning equipment was employed to capture reference shapes and textures from natural or modeled forms. The scanning process helped guide the anatomical accuracy of the manta ray's body structure. Dedicated scanning workspaces ensured proper lighting and stability for accurate model acquisition.
-    </li>
-    <li>
+We began the development process by using high-resolution 3D scanning hardware and software to capture accurate anatomical references. 
+Rather than working solely from images or sketches, we scanned real fish models to gather detailed surface information — especially the natural textures and contours of the skin. 
+This allowed us to extract realistic features, such as the unique ripple patterns and organic curves of a manta ray, which were directly applied to our 3D model.
+The scanning process was conducted in dedicated scanning environments within the university’s workshop, where proper lighting and stability helped reduce distortions and ensured reliable mesh data. The results were used not only for shape reference but also to guide the sculpting and digital design phases.    </li>
+   
+	  <li>
       <strong>Motion Capture Hardware, Software, and Stage Facilities:</strong><br>
-      Motion capture technology was used to study and replicate the fluid movements of manta ray fins. A motion capture stage setup allowed for the recording of fin-like movements, which were later mapped into the digital model to assist in simulating and designing articulated motion in the fins.
-    </li>
-    <li>
-      <strong>Computer-Aided Design (CAD) Software Package:</strong><br>
-      Fusion 360 was utilized for creating detailed mechanical designs of the manta ray model. This included segmenting the fins for movement, planning joints and pin holes, and validating tolerances for 3D printed assembly. The CAD environment allowed for parametric modeling and simulation of the final structure.
-    </li>
-    <li>
-      <strong>3D Modelling Software:</strong><br>
-      In addition to CAD, organic modeling tools were used to sculpt the outer body for aesthetic and biomimetic realism. This supported the creation of a smooth and flowing manta ray shape, closely mimicking natural forms beyond purely mechanical components.
-    </li>
+To replicate the smooth, flowing motion of manta ray fins, we used motion capture technology. The system helped us study and analyse the kinematics of fin-like movements by capturing data from staged demonstrations. 
+With motion capture sensors attached to simulated fin models, we were able to observe how flexible materials behaved when mimicking underwater movement.
+The motion data collected from this process informed the articulation design and inspired the movement mechanism in our robotic manta ray. 
+Although we didn’t use the data directly for animation, it provided valuable insights into natural motion paths and realistic movement patterns, which we applied in both the design and control planning of the final prototype.    </li>
+   
+	  <li>
+      <strong>3D Modelling Software:ON-SHAPE:</strong><br>
+For the modelling and design process, we used Onshape, a cloud-based 3D modelling platform, to digitally build the entire structure of the manta ray. 
+Onshape allowed for collaborative work and flexible parametric modelling, which made it easy to test variations, refine details, and adapt designs across the team.
+The manta ray body was designed as a hollow shell to reduce weight and facilitate internal mounting. 
+The pectoral fins were designed as segmented extensions to enable flexibility, allowing natural-looking articulation once assembled. 
+Instead of using traditional mechanical joints, the fin design was 3D printed with built-in flexibility and connected using fishing thread for motion. 
+The internal structure was also modelled to support servo motor placement and to secure the connections needed for controlled movement.    </li>
+    
     <li>
       <strong>Haptic Input Hardware and 3D Sculpting Software:</strong><br>
-      Haptic feedback tools were used to interactively sculpt portions of the manta ray’s outer skin, enabling more intuitive and tactile control over digital shaping. This approach allowed for enhanced surface detailing and ergonomic refinement in the body design.
-    </li>
-    <li>
+To refine the outer shape of the manta ray and add organic realism, we utilized haptic input devices along with 3D sculpting software. 
+These tools allowed us to physically "feel" and sculpt the virtual surfaces, improving accuracy in replicating natural forms like curves, bulges, and transitions between body sections.
+This approach was especially useful when working on the outer body shell and fin textures, as it enabled intuitive manipulation that would have been difficult with traditional modelling tools alone. 
+The tactile feedback also helped us maintain smooth surface continuity while enhancing the aesthetic appeal of the model.    </li>
+    
+	  <li>
       <strong>3D Printing Hardware and Workshop Facilities:</strong><br>
-      Multiple components of the model were fabricated using Fused Deposition Modeling (FDM) 3D printers. PLA was primarily used due to its accessibility and rigidity, with workshop facilities providing support for multi-material printing, surface finishing, and part testing.
-    </li>
+		  <p>
+Once the design was finalised, we used Fused Deposition Modelling (FDM) 3D printers to fabricate the parts of the manta ray. 
+PLA filament was chosen as the primary printing material due to its rigidity, ease of use, and affordability. The model was divided into printable segments, including: 
+	  </p>
+
+	<ul>
+		<li>The hollow main body
+		<li>Left and right segmented pectoral fins
+		<li>An optional tail and caudal fin section
+		<li>Internal mounts for servo motors and threading mechanisms
+	</ul>
+	  <p>
+		Slicing and print settings were managed using Cura, where we carefully oriented each part to minimise the need for supports and to avoid print failures. 
+		The university’s 3D printing workshop provided the necessary infrastructure to monitor prints, make adjustments, and iterate quickly when necessary.
+	  </p>
+	  </li>
     <li>
       <strong>Laser Cutting Hardware and Workshop Facilities:</strong><br>
       For internal frame structures or precise mounting plates, laser cutting was employed on acrylic or wood sheets. Laser-cutting helped produce accurate 2D profiles that supported the assembly of more complex 3D components.
