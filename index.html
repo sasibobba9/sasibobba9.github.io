@@ -139,31 +139,60 @@ This project highlights how combining biomimicry, mechanical design, and advance
 								</div>
   <h2 class="major">Development Process</h2>
   <ol>
+	  
     <li>
       <strong>Research and Conceptualization:</strong><br>
-      The project began with extensive research into the biology, movement, and structure of real manta rays. This included studying fin motion, body proportions, and underwater dynamics. Sketches and rough models were created to explore the overall shape and articulation points.
-    </li>
+The development of the bio-inspired manta ray model began with an in-depth research phase, where our group explored various marine creatures for inspiration. After multiple brainstorming sessions, we finalised the idea of designing a robotic manta ray because of its unique structure, elegant body design, and fluid fin movement.
+
+We studied the biology, structure, and natural movement patterns of real manta rays, focusing on their body proportions, fin dynamics, and swimming style. This research gave us an understanding of how manta rays glide smoothly in water using their large, flexible pectoral fins.
+We created multiple hand sketches and rough design ideas to visualise the overall shape of the manta ray and identify the possible articulation points for fin movement.    </li>
+	  
     <li>
       <strong>3D Scanning and Reference Collection:</strong><br>
-      For anatomical accuracy, reference images and 3D scans (where available) were analyzed to better understand the curvature and surface details of the manta ray's body and fins. This helped in guiding the CAD modeling phase.
-    </li>
+To make the design more accurate and realistic, we used 3D scanning hardware and software available in the university facilities. 
+The main purpose of using 3D scanning was to capture the fine surface details, skin textures, and curves of existing fish models. This data was extremely useful in replicating the natural skin pattern and the organic flow of the manta ray’s body.
+
+Along with 3D scanning, we referred to multiple reference images and 3D scanned data available online to study the anatomical structure of manta rays. 
+The scanned texture details were later integrated into the digital design to give a realistic finish to the final 3D printed model.    </li>
+	  
     <li>
       <strong>CAD Design and Modeling:</strong><br>
-      Using Fusion 360, the manta ray model was created in multiple segments to allow for articulation, especially in the fins. The design incorporated joints and connection points that would allow motion, either mechanically or via motorized control for future upgrades.
-    </li>
-    <li>
+Once the research and data collection phase was completed, we moved on to the digital modelling process. Onshape, a cloud-based 3D modelling software, was used to create the manta ray model. The entire model was designed in multiple segments to ensure that the fins could move naturally when assembled.
+
+Instead of traditional CAD software like Fusion 360, Onshape provided flexibility in creating and refining the model collaboratively. 
+We focused on designing a hollow main body for lightweight construction, with segmented left and right pectoral fins that could simulate the flapping motion of a real manta ray.
+Special attention was given to designing the fin sections, where flexible movement was required. 
+The model was designed in such a way that it allowed for easy attachment of servo motors and the integration of fishing thread to control fin movement.    </li>
+   
+	  <li>
       <strong>Simulation and Motion Planning:</strong><br>
-      Basic motion simulations were run within Fusion 360 to verify the range of movement for the fins and ensure smooth mechanical interaction. Design iterations were carried out to minimize friction and optimize motion paths.
-    </li>
-    <li>
+Motion capture hardware and software were utilised to study how manta rays move their fins while swimming. 
+This technology helped us observe the fin motion pattern and inspired us to replicate a similar motion in our model.
+
+We carefully studied the range of movement, flexibility, and direction of fin flaps to guide our design choices. 
+These insights were essential for planning how the fins of our robotic manta ray would move using fishing thread connected to servo motors.    </li>
+   
+	  <li>
       <strong>Material Selection:</strong><br>
-      PLA was selected as the primary material due to its rigidity and ease of printing. TPU was considered for the fins to allow flexibility, depending on the specific part function. Threaded rods and connectors were planned for assembling moving parts.
-    </li>
-    <li>
+For 3D printing the model, Poly-lactic Acid (PLA) filament was selected as the primary material. 
+PLA was ideal for this project because of its strength, durability, and ease of printing.
+
+For connecting and assembling different parts like fins and body, we used pins. 
+To enable fin movement, fishing thread was used to link the fins with servo motors, allowing for controlled and flexible articulation. 
+The use of fishing thread provided lightweight yet strong connectivity between moving parts.
+Basic electronics like servo motors were included to power the fin movement, making the model function more like a robotic concept.    </li>
+   
+	  <li>
       <strong>3D Printing:</strong><br>
-      The model was split into separate printable parts: the main body, left and right fins, and optional tail section. Each part was sliced using appropriate settings in Cura for PLA. Supports and orientation were carefully managed to reduce print failures.
-    </li>
-    <li>
+After finalising the design in Onshape, the model was divided into separate parts suitable for 3D printing. The main 3D printed parts included:
+  </li> The hollow main body shell
+  </li> Segmented left and right pectoral fins
+  </li> Tail and caudal fin with optional motion features
+  </li>Internal mounting structures to support servo motors and connections
+We used FDM (Fused Deposition Modelling) technology for printing all parts using PLA filament. 
+The slicing of each part was done using Cura software, where settings were optimised based on the size, complexity, and orientation of each part to avoid print failures.    </li>
+    
+	  <li>
       <strong>Post-Processing and Assembly:</strong><br>
       After printing, supports were removed and the surfaces were cleaned using sanding tools. The parts were assembled using pins and joints designed into the CAD model. The articulation was tested and adjusted for smoother motion.
     </li>
